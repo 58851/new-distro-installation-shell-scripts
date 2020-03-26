@@ -27,3 +27,7 @@ sudo apt install youtube-dl
 
 # install Microsoft VS Code
 sudo snap install code --classic
+
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt autoremove -y
