@@ -29,7 +29,15 @@ sudo apt install youtube-dl
 sudo youtube-dl -U
 
 # install Microsoft VS Code
-sudo snap install code --classic
+#sudo snap install code --classic
+# sudo apt install software-properties-common apt-transport-https wget
+sudo apt install software-properties-common 
+sudo apt install apt-transport-https
+sudo apt install wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update
+sudo apt install code
 
 sudo apt update -y
 sudo apt upgrade -y
