@@ -41,7 +41,7 @@ sudo youtube-dl -U
 
 # --- VeraCrypt
 wget https://launchpad.net/veracrypt/trunk/1.24-update4/+download/veracrypt-console-1.24-Update4-Ubuntu-18.04-amd64.deb
-sudo gdebi install veracrypt-console-1.24-Update4-Ubuntu-18.04-amd64.deb
+sudo gdebi veracrypt-console-1.24-Update4-Ubuntu-18.04-amd64.deb
 
 # --- WEB BROWSERS
 sudo apt install chromium-browser
