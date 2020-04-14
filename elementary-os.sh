@@ -26,9 +26,14 @@ sudo apt install kdenlive
 sudo apt install krita
 sudo apt install inkscape
 
-# --- TeamViewer
+# --- REMOTE CONNECTION
+# -- TeamViewer
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 sudo gdebi install teamviewer_amd64.deb
+
+# -- Remmina
+sudo apt install remmina
+
 
 # --- UTILITIES
 # -- system information
