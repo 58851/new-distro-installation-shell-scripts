@@ -16,6 +16,10 @@ sudo add-apt-repository ppa:pilip.scott/elementary0tweaks
 sudo apt update -y
 sudo apt install elementary-tweaks
 
+# --- DISK EDITORS
+#--
+sudo apt install gparted
+
 # --- IDEs
 sudo snap install atom
 # V.S. Code by Microsoft
